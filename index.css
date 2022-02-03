@@ -148,6 +148,7 @@ button {
 }
 
 .card {
+  font-weight: 200;
   justify-content: center;
   display: grid;
   grid-template-columns: 400px;
