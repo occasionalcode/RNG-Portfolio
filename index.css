@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+nav {
+  width: 100%;
+  background: #1b1813;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  color: white;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: left;
+  list-style: none;
+}
+a {
+  padding: 20px;
+  width: 100px;
+  text-transform: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+#section1 {
+  height: 940px;
+  background-image: url("videos/intro-vid.gif");
+  background-size: cover;
+  background-position-y: 1030px;
+  display: inline-block;
+  width: 100%;
+}
+#section2 {
+  height: 940px;
+  background-image: url("videos/riki-vid.gif");
+  background-size: cover;
+  background-position-y: 1030px;
+  display: inline-block;
+  width: 100%;
+}
+#section3 {
+  height: 940px;
+  /* background-color: #1b1813; */
+  background-image: url("videos/gab-vid.gif");
+  background-size: cover;
+  display: inline-block;
+  background-position-y: 1030px;
+  width: 100%;
+}
+#section4 {
+  height: 940px;
+  background-image: url("videos/both-vid.gif");
+  background-size: cover;
+  background-position-y: 1030px;
+  display: inline-block;
+  width: 100%;
+}
+#section5 {
+  height: 940px;
+  background-image: url("videos/smoke-vid.gif");
+  background-position-y: 1030px;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  height: 940px;
+  width: 1903px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.flex-words-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-words-right {
+  display: flex;
+  justify-content: right;
+  text-align: left;
+  flex-direction: column;
+  width: 60%;
+  font-size: 30px;
+  margin-left: 100px;
+  z-index: 1;
+}
+.flex-words-left {
+  display: flex;
+  justify-content: left;
+  text-align: right;
+  flex-direction: column;
+  width: 60%;
+  font-size: 30px;
+  margin-right: 100px;
+}
+
+.flex-container-Home-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #00ffea;
+  font-weight: bold;
+}
+#Home-button {
+  display: flex;
+  margin-top: 50px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+#Title {
+  font-weight: 500;
+  font-size: 120px;
+  margin: -40px;
+}
+
+#threeE {
+  font-weight: 200;
+  word-spacing: 30px;
+}
+
+#riki-tiu {
+  font-weight: b00;
+}
+#riki-desc {
+  font-weight: 200;
+}
+
+.card {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  /* width: fit-content; */
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  color: black;
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+#riki-pic {
+  background-image: url(https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/250814738_3021686594766805_6181339897742324353_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFjghAQQ0NFN563CUqHmTuPRbFDayEJs3hFsUNrIQmzeEcWLovQwzpT2QEi67klYbMegbA1-APTiNapdp6PKqOB&_nc_ohc=9AoU25YAE9YAX_GUEs7&_nc_ht=scontent.fmnl13-1.fna&oh=00_AT_Lw89xNkjzrayy0PVeHi3d457V5TLSoRFRzjA3V-Y5RQ&oe=6200E81A);
+  background-size: cover;
+  background-position-y: -50px;
+  /* background-position-x: 30px; */
+}
+#gab-pic {
+  background-image: url("https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/253226156_4638085789619715_4506726857783319568_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEY58zwnQdK-1BfQUQCy2upGvhSzKL23LAa-FLMovbcsNyEg9pLSVhZqnE8SUXsERf10cKOeDUz610YieGf7AL-&_nc_ohc=pZHQbb2ZYggAX_wxWFk&tn=4NsD_rLy8pJA4odm&_nc_ht=scontent.fmnl13-1.fna&oh=00_AT81nASPL0TxfXP-rMQz56oRXNLttstXvdGk7SZmBSRU0g&oe=6200B6B4");
+  background-size: cover;
+  background-position-y: -50px;
+}
+#riki-gab-pic {
+  background-image: url("images/riki-gab-pic.JPG");
+  background-size: cover;
+  background-position-y: -50px;
+}
+.navigation {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+  /* width: 100%; */
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+#Home-button:hover {
+  transform: scale(1.15);
+}
+
+.icons-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icons-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  transform: scale(1.15);
+}
+
+#fb {
+  display: flex;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+#fb:hover {
+  transform: scale(1.15);
+}
+
+#git {
+  display: flex;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+#git:hover {
+  transform: scale(1.15);
+}
+
+#yt {
+  display: flex;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+#yt:hover {
+  transform: scale(1.15);
+}
