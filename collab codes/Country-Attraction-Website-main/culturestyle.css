@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ************************************************************************************* */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 20px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fcae1e;
+  border-bottom: 7px solid #111;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  display: block;
+  padding-right: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  transform: scale(1.2) translateY(0px);
+}
+
+.culture-overview {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+
+  /* font-size: 3px; */
+}
+.culture-overview h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.culture-overview p {
+  text-align: justify;
+  padding-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-justify: inter-word;
+}
+
+.culture-family {
+  padding-bottom: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.culture-family h2 {
+  text-align: left;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.culture-family p {
+  text-align: left;
+  padding-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.culture-hiero {
+  padding-bottom: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.culture-hiero h2 {
+  text-align: left;
+  padding-bottom: 100px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.culture-hiero p {
+  text-align: justify;
+  font-size: 20px;
+
+  padding-top: 100px;
+  text-justify: inter-word;
+}
+
+.culture-fashion {
+  margin-bottom: 500px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.culture-fashion h2 {
+  text-align: left;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.culture-fashion p {
+  text-align: justify;
+  font-size: 20px;
+
+  text-justify: inter-word;
+  padding-bottom: 100;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+main {
+  margin: 100px 275px 0 275px;
+}
+
+.culture-banner {
+  width: 100%;
+  height: 400px;
+  margin-top: 90px;
+  background-image: url("images/culturebanner.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -150px;
+  background-size: cover;
+  display: table;
+}
+
+.culture-banner h1 {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 100px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 73px;
+  color: orange;
+  text-shadow: 5px 5px 1px black;
+}
+
+.hiero-pics ul {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+.hiero-pics ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 8.3px;
+}
+
+.hiero-pics ul li img {
+  width: 303px;
+  height: 275px;
+  border-radius: 25px;
+}
+
+.fashion-types ul {
+  padding-top: 40px;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+.fashion-types ul li {
+  list-style: none;
+  display: inline;
+  float: left;
+  padding: 0 15px;
+}
+
+.fashion-text {
+  padding-top: 20px;
+  width: 345px;
+  padding-bottom: 100px;
+}
+
+.fashion-text p {
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 2px;
+}
+
+.fashion-types ul li img {
+  width: 345px;
+  height: 500px;
+}
+
+.fashion-types h3 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.religions ul li {
+  list-style: none;
+}
+
+.culture-religion h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar {
+  height: m 12%;
+  display: flex;
+  align-items: center;
+}
+
+.culture-religion {
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+
+.culture-religion h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.culture-religion h3 {
+  text-decoration: none;
+  text-align: left;
+  padding-bottom: 30px;
+  padding-top: 75px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.culture-religion p {
+  text-decoration: none;
+  text-align: justify;
+  padding-bottom: 30px;
+  padding-top: 5px;
+  font-size: 20px;
+
+  text-justify: inter-word;
+}
+
+body {
+  background-image: url(images/papyrus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  height: 90px;
+  background: #fcae1e;
+  overflow: hidden;
+  border-top: 7px solid #111;
+}
+
+.footer-trademark {
+  float: right;
+  border-left: 3px solid black;
+  height: 50px;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.footer-trademark h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 20px;
+  float: right;
+  padding-top: 6.25px;
+}
+
+.footer-trademark p {
+  color: black;
+  font-family: "Outfit", sans-serif;
+  font-size: 15.5px;
+  font-weight: 500;
+  padding-top: 35px;
+  line-height: 5px;
+}
+.footer-contact {
+  padding-left: 20px;
+}
+
+.footer-contact h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.footer-contact p {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 5px;
+  line-height: 20px;
+}

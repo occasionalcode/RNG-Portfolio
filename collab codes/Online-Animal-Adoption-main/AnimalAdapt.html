@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Cards</title>
+    \
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"
+    />
+    <link rel="stylesheet" type="text/css" href="AnimalAdapt.css" />
+  </head>
+  <body dir="rtl">
+    <div class="sidemenu">
+      <h1>Animalandia</h1>
+      <div class="scroll-bg">
+        <div class="scroll-div">
+          <div class="scroll-object">
+            <ul id="pet-list"></ul>
+            <button id="clear-all">Clear All</button>
+            <button id="adopt"> Adopt</button>
+          </div>
+
+
+        </div>  
+    </div>
+    </div>
+
+    <div class="main-content">
+    <div class="slide-container">
+      <div class="wrapper">
+        <div class="card barbarian">
+          <div class="card__image card__image--albina">
+            <img src="transparent img/albina.png" alt="albina" id="albina-img"/>
+          </div>
+          <div class="card__level card__level--1">
+          </div>
+          <h2 class="card__unit-name" id="albina-name">Albina</h2>
+          <div class="card__unit-description">
+            cute, smart, and loving
+          </div>
+          <div
+            class="card__unit-stats card__unit-stats--1 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="albina-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+
+            </div>
+
+            <div class="one-third no-border">
+              <!-- <div class="stat-value"><button class="card-heart" id="albina-btn"><img src="transparent img/heart.png" alt=""></button></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- end card Albina-->
+      </div>
+      <!-- end wrapper -->
+
+
+      <div class="wrapper">
+        <div class="card giant">
+          <div class="card__image card__image--casper">
+            <img src="transparent img/casper.png" alt="Casper" id="casper-img"/>
+          </div>
+          <div class="card__level card__level--3"></div>
+          <h2 class="card__unit-name" id="casper-name">Casper</h2>
+          <div class="card__unit-description">
+            Loyal, funny, and loves to sing!
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--3 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="casper-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+          </div>
+        </div>
+        <!-- end card giant-->
+      </div>
+      <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="card goblin">
+          <div class="card__image card__image--cotton">
+            <img src="transparent img/cotton.png" alt="Cotton" id="cotton-img"/>
+          </div>
+          <div class="card__level card__level--4
+          "></div>
+          <h2 class="card__unit-name" id="cotton-name">Cotton</h2>
+          <div class="card__unit-description">
+            Quiet, loving, and cute <3
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--4 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="cotton-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+    
+            </div>
+          </div>
+        </div>
+        <!-- end card goblin-->
+      </div>
+      <!-- end wrapper -->
+
+
+      <div class="wrapper">
+        <div class="card barbarian">
+          <div class="card__image card__image--edgar">
+            <img src="transparent img/edgar.png" alt="Edgar" id="edgar-img" />
+          </div>
+          <div class="card__level card__level--1">
+            
+          </div>
+          <h2 class="card__unit-name" id="edgar-name">Edgar</h2>
+          <div class="card__unit-description">
+            Playful, intelligent, and it loves to lick your face!
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--1 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="edgar-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+ 
+            </div>
+          </div>
+        </div>
+        <!-- end card barbarian-->
+      </div>
+      <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="card archer">
+          <div class="card__image card__image--george">
+            <img src="transparent img/george.png" alt="George" id="george-img" />
+          </div>
+          <div class="card__level card__level--2"></div>
+          <h2 class="card__unit-name" id="george-name">George</h2>
+          <div class="card__unit-description">
+            likes to wonder around, loves hiding objects, and likes banana
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--2 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="george-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+            
+            </div>
+          </div>
+        </div>
+        <!-- end card archer-->
+      </div>
+      <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="card giant">
+          <div class="card__image card__image--grumpy">
+            <img src="transparent img/grumpy.png" alt="grumpy" id="grumpy-img" />
+          </div>
+          <div class="card__level card__level--3"></div>
+          <h2 class="card__unit-name" id="grumpy-name">Grumpy</h2>
+          <div class="card__unit-description">
+            Loves to sleep on couches, good at sleeping, and spends the whole day sleeping.
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--3 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="grumpy-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+   
+            </div>
+          </div>
+        </div>
+        <!-- end card giant-->
+      </div>
+
+      <div class="wrapper">
+        <div class="card goblin">
+          <div class="card__image card__image--happy">
+            <img src="transparent img/happy.png" alt="happy" id="happy-img" />
+          </div>
+          <div class="card__level card__level--4"></div>
+          <h2 class="card__unit-name" id="happy-name">Happy</h2>
+          <div class="card__unit-description">
+            Always hyped, playful, and caring
+          </div>
+          <!-- end wrapper -->
+
+          <div
+            class="card__unit-stats card__unit-stats--4 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="happy-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+          
+            </div>
+          </div>
+        </div>
+        <!-- end card goblin-->
+      </div>
+      <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="card wizard">
+          <div class="card__image card__image--mug">
+            <img src="transparent img/mug.png" alt="mug" id="mug-img" />
+          </div>
+          <div class="card__level card__level--5"></div>
+          <h2 class="card__unit-name" id="mug-name">Mug</h2>
+          <div class="card__unit-description">
+            loves to sleep on your lap, wants constant love, and always hungry.
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--5 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="mug-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+             
+            </div>
+          </div>
+        </div>
+        <!-- end card wizard-->
+      </div>
+      <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="card barbarian">
+          <div class="card__image card__image--scar">
+            <img src="transparent img/scar.png" alt="Scar" id="scar-img"/>
+          </div>
+          <div class="card__level card__level--1">
+
+          </div>
+          <h2 class="card__unit-name" id="scar-name">Scar</h2>
+          <div class="card__unit-description">
+            Loves to play with you and cuddle with you.
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--1 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="scar-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+    
+            </div>
+          </div>
+        </div>
+        <!-- end card barbarian-->
+      </div>
+      <!-- end wrapper -->
+
+
+      <div class="wrapper">
+        <div class="card archer">
+          <div class="card__image card__image--simba">
+            <img src="transparent img/simba.png" alt="Simba" id="simba-img"/>
+          </div>
+          <div class="card__level card__level--2"></div>
+          <h2 class="card__unit-name" id="simba-name">Simba</h2>
+          <div class="card__unit-description">
+            loves to hunt tiny mice, jolly, and playful
+          </div>
+
+          <div
+            class="card__unit-stats card__unit-stats--2 clearfix"
+          >
+            <div class="one-third">
+              <div class="stat">
+              </div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat-value"><input type="image" src="transparent img/heart.png" name="saveForm" class="card-heart" id="simba-btn" /></div>
+              <div class="stat-value-cost">ADOPT</div>
+            </div>
+
+            <div class="one-third no-border">
+
+            </div>
+          </div>
+        </div>
+        <!-- end card archer-->
+      </div>
+      <!-- end wrapper -->
+      
+      </div>
+    </div>
+  </div>
+    <!-- end container -->
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"Z
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="AnimalAdapt.js"></script>
+
+  </body>
+</html>

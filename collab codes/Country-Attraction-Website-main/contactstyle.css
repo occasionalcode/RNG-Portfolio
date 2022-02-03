@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ********************************************************************************* */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 20px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fcae1e;
+  border-bottom: 7px solid #111;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  padding-right: 50px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  transform: scale(1.2) translateY(0px);
+}
+
+body {
+  background-image: url(images/papyrus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main h2 {
+  padding: 200px 0 0 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+main h3 {
+  padding: 0 0 0 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+main p {
+  padding: 120px 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background: #fcae1e;
+  overflow: hidden;
+  border-top: 7px solid #111;
+}
+
+.footer-trademark {
+  float: right;
+  border-left: 3px solid black;
+  height: 50px;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.footer-trademark h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 20px;
+  float: right;
+  padding-top: 6.25px;
+}
+
+.footer-trademark p {
+  color: black;
+  font-family: "Outfit", sans-serif;
+  font-size: 15.5px;
+  font-weight: 500;
+  padding-top: 35px;
+  line-height: 5px;
+}
+.footer-contact {
+  padding-left: 20px;
+}
+
+.footer-contact h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.footer-contact p {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 5px;
+  line-height: 20px;
+}
