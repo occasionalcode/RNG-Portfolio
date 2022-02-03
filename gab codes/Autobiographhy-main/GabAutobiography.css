@@ -1,0 +1,204 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  width: 100%;
+  background-color: rgb(252, 169, 169);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: left;
+}
+a {
+  padding: 20px;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Home h1 {
+  text-align: left;
+  padding-top: 200px;
+  color: white;
+  margin-bottom: -50px;
+}
+
+.Home h2 {
+  text-align: left;
+  font-size: 100px;
+  padding-left: 80px;
+  width: 100%;
+  color: white;
+  margin-bottom: -20px;
+}
+.Home p {
+  padding-left: 80px;
+  color: white;
+}
+
+.Portfolio h1 {
+  text-align: left;
+  padding-top: 200px;
+  color: black;
+  margin-bottom: -50px;
+}
+
+.Portfolio h2 {
+  text-align: left;
+  font-size: 100px;
+  padding-left: 80px;
+  width: 100%;
+  color: black;
+  margin-bottom: -20px;
+}
+.Portfolio p {
+  padding-left: 80px;
+  color: black;
+}
+
+.Hobbies h1 {
+  text-align: left;
+  padding-top: 200px;
+  color: white;
+  margin-bottom: -50px;
+}
+
+.Hobbies h2 {
+  text-align: left;
+  font-size: 100px;
+  padding-left: 80px;
+  width: 100%;
+  color: white;
+  margin-bottom: -20px;
+}
+.Hobbies p {
+  padding-left: 80px;
+  color: white;
+}
+
+.Contact h1 {
+  text-align: left;
+  padding-top: 200px;
+  color: white;
+  margin-bottom: -50px;
+}
+
+.Contact h2 {
+  text-align: left;
+  font-size: 100px;
+  padding-left: 80px;
+  width: 100%;
+  color: white;
+  margin-bottom: -20px;
+}
+.Contact p {
+  padding-left: 80px;
+  color: white;
+}
+
+.Home {
+  height: 940px;
+  background-color: rgb(34, 58, 71);
+  display: inline-block;
+  width: 100%;
+
+  /* position: relative;
+  padding-bottom: 240px; */
+}
+.Portfolio {
+  height: 940px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 100%;
+}
+.Hobbies {
+  height: 940px;
+  background-color: rgb(117, 63, 63);
+  display: inline-block;
+  width: 100%;
+}
+.Contact {
+  height: 940px;
+  background-color: rgb(87, 125, 128);
+  display: inline-block;
+  width: 100%;
+}
+h1 {
+  margin: 100px;
+  text-align: center;
+  padding: 0;
+}
+.words {
+  width: fit-content;
+  display: block;
+  float: left;
+}
+.Home-pic {
+  float: right;
+  width: 1000px;
+  height: 1100px;
+  position: relative;
+  top: 10px;
+  right: 50px;
+}
+
+.Home-pic img {
+  width: 100%;
+}
+
+.Portfolio-pic {
+  float: right;
+  width: 600px;
+  height: 700px;
+  position: relative;
+  top: 160px;
+  right: 200px;
+}
+
+.Portfolio-pic img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.Hobbies-pic {
+  float: right;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 100px;
+  right: 200px;
+}
+
+.Hobbies-pic img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.Contact-pic {
+  float: right;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 100px;
+  right: 200px;
+}
+
+.Contact-pic img {
+  width: 100%;
+  border-radius: 30px;
+}

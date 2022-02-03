@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="gabCalorie.css" />
+
+    <title>Calorie Calculator</title>
+
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+      #loading {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <div class="flex-container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <div class="card card-body text-center mt-5">
+            <div class="title">
+              <h1 class="heading display-5 pb-3">Calorie Calculator</h1>
+            </div>
+            <form id="calorie-form">
+              <div class="flex-textbox-forms">
+                <label for="age" class="age-weight-height-label">Age</label>
+                <div class="age-textbox">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="age"
+                    placeholder="Ages 15-80"
+                  />
+                </div>
+              </div>
+
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="flex-gender">Gender :</legend>
+                  <div class="col-sm-10" id="form-radio">
+                    <div
+                      class="custom-control custom-radio custom-control-inline"
+                    >
+                      <input
+                        type="radio"
+                        id="male"
+                        name="customRadioInline1"
+                        class="custom-control-input"
+                        checked="checked"
+                      />
+                      <label class="flex-gender-select" for="male">Male</label>
+                    </div>
+                    <div
+                      class="custom-control custom-radio custom-control-inline"
+                    >
+                      <input
+                        type="radio"
+                        id="female"
+                        name="customRadioInline1"
+                        class="custom-control-input"
+                      />
+                      <label class="flex-gender-select" for="female"
+                        >Female</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+
+              <div class="flex-textbox-forms">
+                <label for="weight" class="age-weight-height-label"
+                  >Weight</label
+                >
+                <div class="weight-textbox">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="weight"
+                    placeholder="In kilograms"
+                  />
+                </div>
+              </div>
+
+              <div class="flex-textbox-forms">
+                <label for="height" class="age-weight-height-label"
+                  >Height</label
+                >
+                <div class="height-textbox">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="height"
+                    placeholder="In centimeters"
+                  />
+                </div>
+              </div>
+
+              <div class="flex-textbox-forms">
+                <legend class="flex-activity">Activity</legend>
+                <select class="flex-select-box" id="list">
+                  <option selected value="1">
+                    Sedentary (little or no exercise)
+                  </option>
+                  <option value="2">
+                    Lightly active (light exercise/sports 1-3 days/week)
+                  </option>
+                  <option value="3">
+                    Moderately active (moderate exercise/sports 3-5 days/week)
+                  </option>
+                  <option value="4">
+                    Very active (hard exercise/sports 6-7 days a week)
+                  </option>
+                  <option value="5">
+                    Extra active (very hard exercise/sports & physical job or 2x
+                    training)
+                  </option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <input type="submit" value="Calculate" class="button" />
+              </div>
+            </form>
+
+            <div id="loading">
+              <img
+                src="https://c.tenor.com/k0786a2Qwi4AAAAM/love-hearts.gif"
+                alt=""
+              />
+            </div>
+
+            <div id="results" class="pt-4">
+              <div class="flex-total-cal">
+                <h5>Total Calories</h5>
+                <div class="form-group">
+                  <div class="input-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="total-calories"
+                      disabled
+                    />
+                  </div>
+                </div>
+              </div>
+              <a href="monitor.html" style="text-decoration: none">
+                <button class="button" id="lets-monitor-button">
+                  Lets Monitor!
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

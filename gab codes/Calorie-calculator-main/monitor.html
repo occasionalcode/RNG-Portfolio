@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="monitor.css" />
+    <title>Calories Tracker</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper-blue">
+        <div class="flex-container">
+          <h1>Track Calories</h1>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="flex-clearbutton">
+        <ul>
+          <li>
+            <a
+              href="#"
+              class="clear-btn btn blue lighten-3"
+              style="text-decoration: none"
+            >
+              <button>Clear All</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="flex-category">
+            <span class="card-title">Add Meal / Food item</span>
+          </div>
+          <form class="col">
+            <div class="row">
+              <div class="flex-meal-input">
+                <input type="text" placeholder="Add Item" id="item-name" />
+                <label for="item-name">Meal</label>
+              </div>
+              <div class="flex-cal-input">
+                <input
+                  type="number"
+                  placeholder="Add Calories"
+                  id="item-calories"
+                />
+                <label for="item-calories">Calories</label>
+              </div>
+            </div>
+            <div class="flex-meal">
+              <button class="btn add-btn blue darken-3">
+                <i class="fa fa-plus"></i> Add Meal
+              </button>
+              <button class="btn update-btn orange">
+                <i class="fa fa-pencil-square-o"></i> Update Meal
+              </button>
+              <button class="btn delete-btn red">
+                <i class="fa fa-remove"></i> Delete Meal
+              </button>
+              <button class="btn back-btn grey pull-right">
+                <i class="fa fa-chevron-circle-left"></i> Back
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Calories count -->
+      <div class="total-cal">
+        <h3 class="center-align">
+          Total calories: <span id="total-calories">0</span>
+        </h3>
+        <!-- Item list -->
+        <ul id="item-list" class="collection">
+          <!-- <li class="collection-item" id="item-0"><strong>Steak:</strong> <em>900 Calories</em>
+                <a href=3"" class="secondary-content"><i class="fa fa-pencil"></i></a>
+            </li>
+            <li class="collection-item" id="item-0"><strong>Egg:</strong> <em>600 Calories</em>
+                <a href=3"" class="secondary-content"><i class="fa fa-pencil"></i></a>
+            </li>
+            <li class="collection-item" id="item-0"><strong>Cookies:</strong> <em>900 Calories</em>
+                <a href=3"" class="secondary-content"><i class="fa fa-pencil"></i></a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="monitor.js"></script>
+  </body>
+</html>
