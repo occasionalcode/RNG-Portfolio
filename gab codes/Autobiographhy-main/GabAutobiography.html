@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav>
@@ -22,24 +23,28 @@
         <li><a href="#section4">Contact</a></li>
       </ul>
     </nav>
+    <!-- <div class="petals">
+      <img src="images/petals.gif" alt="petals falling" />
+    </div> -->
+
     <section id="section1" class="Home">
       <div class="words">
-        <h1>Hi! I am</h1>
-        <h2>Gabriel Ibanez</h2>
-        <p>
+        <h1 data-aos="fade-left">Hi! I am</h1>
+        <h2 data-aos="fade-right">Gabriel Ibanez</h2>
+        <p data-aos="fade-up">
           I am a student in Malayan Colleges of Mindanao who majors in Computer
           Science.
         </p>
       </div>
-      <div class="Home-pic">
+      <div data-aos="fade-left" class="Home-pic">
         <img src="images/me1.1.png" alt="picture of Gab" />
       </div>
     </section>
     <section id="section2" class="Portfolio">
-      <div class="words">
+      <div class="words-even">
         <h1></h1>
-        <h2>About me</h2>
-        <p>
+        <h2 data-aos="fade-left">About me</h2>
+        <p data-aos="fade-up">
           Music, programming, photography, videography, and sports are some of
           my favorite things. <br />
           I spend most of my leisure time making music and practicing B-roll
@@ -58,15 +63,15 @@
           next year.
         </p>
       </div>
-      <div class="Portfolio-pic">
+      <div data-aos="fade-right" class="Portfolio-pic">
         <img src="images/me_2.jpg" alt="picture of Gab" />
       </div>
     </section>
     <section id="section3" class="Hobbies">
       <div class="words">
         <h1></h1>
-        <h2>Gabriel Ibanez</h2>
-        <p>
+        <h2 data-aos="fade-right">Goals</h2>
+        <p data-aos="fade-up">
           I have no idea what the future holds, but I pray that with the grace
           of God, I will still be happy<br />
           with my family when I become thirty. I imagined myself being
@@ -83,22 +88,39 @@
           it is the greatest!
         </p>
       </div>
-      <div class="Hobbies-pic">
+      <div data-aos="fade-left" class="Hobbies-pic">
         <img src="images/me3.jpg" alt="picture of Gab" />
       </div>
     </section>
     <section id="section4" class="Contact">
-      <div class="words">
+      <div class="words-even">
         <h1></h1>
-        <h2>Contact</h2>
-        <p>
+        <h2 data-aos="fade-left">Contact</h2>
+        <p data-aos="fade-up">
           For Videography and music production assistance, please email me at
           gabrielibanez101@gmail.com.
         </p>
       </div>
-      <div class="Contact-pic">
+      <div data-aos="fade-right" class="Contact-pic">
         <img src="images/me4.jpg" alt="picture of Gab" />
       </div>
     </section>
+    <footer>
+      <div class="footer-trademark">
+        <h3>EXPLORE, ELEVATE, ENJOY</h3>
+        <p>RNG Company</p>
+      </div>
+      <div class="footer-contact">
+        <h2>CONTACT US <br /></h2>
+        <p>
+          rikikarl8@gmail.com <br />
+          gabrielibanez7337@gmail.com
+        </p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
