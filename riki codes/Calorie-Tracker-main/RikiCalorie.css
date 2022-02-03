@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  background-color: #f3f3f3;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background-color: #9455f4;
+}
+
+header h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+header h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main-wrapper .container {
+  background-color: wheat;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.container .container-contents {
+  padding-left: 15px;
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-group-row .age-box {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  border: none;
+  padding-bottom: 10px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+}
+
+#calc-btn {
+  width: 70px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#total-calories {
+  height: 20px;
+}
+
+/* *********************************************************************************************************** */
+
+.nav-wrapper {
+  margin-top: 50px;
+  height: 120px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.nav-wrapper .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100%;
+}
+
+.brand-logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.container ul {
+  position: absolute;
+  left: 0;
+  list-style: none;
+}
+
+.container ul li {
+  padding-left: 15px;
+}
+
+.clear-btn {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.container2 {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container2 .card {
+  background-color: aquamarine;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card .card-content {
+  padding: 40px;
+}
+
+.col .row {
+  padding-top: 10px;
+}
+
+.col .row .input-field {
+  padding-top: 10px;
+}
+
+.center-align {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ul-container ul {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
