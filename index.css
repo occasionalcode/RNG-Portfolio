@@ -178,11 +178,13 @@ button {
   color: grey;
   font-size: 15px;
   font-weight: 300;
+  font-weight: 200;
 }
 .card-text h2 {
   color: black;
   margin-top: 0px;
   font-size: 28px;
+  font-weight: 500;
 }
 
 #riki-pic {
